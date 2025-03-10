@@ -6,7 +6,6 @@ if ( empty( $_REQUEST['save'] )
 {
 	$res = getEnrollmentReport();
 	echo '
-	<a href="#?h=1">cclicj</a>
 	<table border="1">
     <thead>
         <tr>
