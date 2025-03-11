@@ -12,12 +12,12 @@ function getEnrollmentReport(){
 	return $res;
 }
 
-add_action( 'Warehouse.php|header_head', 'reportStyle' );
+// add_action( 'Warehouse.php|header_head', 'reportStyle' );
 
 
-function reportStyle()
-{
-	echo '<link rel="stylesheet" href="plugins/StudentEnrollment/style.css" />';
-}
+// function reportStyle()
+// {
+// 	echo '<link rel="stylesheet" href="plugins/StudentEnrollment/style.css" />';
+// }
 
 ?>
